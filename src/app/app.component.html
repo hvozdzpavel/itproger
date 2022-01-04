@@ -1,1 +1,16 @@
+{{login}}
+<div class="form-group">
+  <div>
+    <label>login</label>
+    <input class="form-control" name="login" [(ngModel)]="login"/>
+  </div>
+
+  <div>
+    <label>pass</label>
+    <input class="form-control" name="password" [(ngModel)]="password" type="password"/>
+  </div>
+  <div>
+    <button  class="btn btn-default" (click)="submit()">Добавить</button>
+  </div>
+</div>
 
